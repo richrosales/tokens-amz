@@ -22,7 +22,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "#005f9e",
+        "value": "#eaea3d",
         "type": "color"
       },
       "secondary": {
@@ -64,7 +64,7 @@
         "type": "color"
       },
       "link": {
-        "value": "#005f9e",
+        "value": "#eaea3d",
         "type": "color"
       }
     }
