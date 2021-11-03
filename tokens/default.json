@@ -108,15 +108,15 @@
     },
     "fontFamilies": {
       "heading": {
-        "value": "Gotham",
+        "value": "Monument Extended",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Helvetica Neue",
+        "value": "Avenir",
         "type": "fontFamilies"
       },
       "nav": {
-        "value": "Helvetica Neue",
+        "value": "Avenir",
         "type": "fontFamilies"
       }
     },
