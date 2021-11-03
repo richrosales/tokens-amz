@@ -22,11 +22,11 @@
         "type": "color"
       },
       "primary": {
-        "value": "#eaea3d",
+        "value": "#0d6346",
         "type": "color"
       },
       "secondary": {
-        "value": "#563fd8",
+        "value": "#eaea3d",
         "type": "color"
       },
       "subtle": {
@@ -64,8 +64,66 @@
         "type": "color"
       },
       "link": {
-        "value": "#eaea3d",
+        "value": "#0d6346",
         "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "#0d6346",
+          "type": "color"
+        }
+      },
+      "ghost": {
+        "outline": {
+          "value": "#000",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      }
+    },
+    "borderWidth": {
+      "button": {
+        "ghost": {
+          "value": 4,
+          "type": "borderWidth"
+        }
+      }
+    },
+    "borderRadius": {
+      "button": {
+        "ghost": {
+          "value": 8,
+          "type": "borderRadius"
+        }
+      },
+      "card": {
+        "value": 4,
+        "type": "borderRadius"
+      }
+    },
+    "fontFamilies": {
+      "heading": {
+        "value": "Gotham",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Helvetica Neue",
+        "type": "fontFamilies"
+      },
+      "nav": {
+        "value": "Helvetica Neue",
+        "type": "fontFamilies"
+      }
+    },
+    "fontSizes": {
+      "default": {
+        "value": 16,
+        "type": "fontSizes"
       }
     }
   }
