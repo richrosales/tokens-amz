@@ -110,7 +110,7 @@
     },
     "fontFamilies": {
       "heading": {
-        "value": "Monument Extended",
+        "value": "Arial",
         "type": "fontFamilies"
       },
       "body": {
@@ -132,7 +132,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -152,7 +152,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -177,7 +177,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 144
@@ -197,7 +197,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 144
@@ -218,7 +218,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -238,7 +238,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -263,7 +263,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 120
@@ -283,7 +283,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 120
@@ -304,7 +304,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -324,7 +324,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -349,7 +349,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 96
@@ -369,7 +369,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 96
@@ -390,7 +390,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -410,7 +410,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -435,7 +435,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 80
@@ -455,7 +455,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 80
@@ -476,7 +476,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -496,7 +496,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -521,7 +521,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 60
@@ -541,7 +541,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 60
@@ -562,7 +562,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -582,7 +582,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -607,7 +607,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 52
@@ -627,7 +627,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 52
@@ -648,7 +648,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -668,7 +668,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -693,7 +693,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 48
@@ -713,7 +713,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 48
@@ -734,7 +734,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -754,7 +754,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -779,7 +779,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 40
@@ -799,7 +799,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 40
@@ -820,7 +820,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -840,7 +840,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -865,7 +865,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 32
@@ -885,7 +885,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 32
@@ -906,7 +906,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -926,7 +926,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -951,7 +951,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 36
@@ -971,7 +971,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 36
@@ -992,7 +992,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1012,7 +1012,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1037,7 +1037,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 32
@@ -1057,7 +1057,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 32
@@ -1078,7 +1078,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1098,7 +1098,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1123,7 +1123,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 28
@@ -1143,7 +1143,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 28
@@ -1164,7 +1164,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1184,7 +1184,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1209,7 +1209,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 20
@@ -1229,7 +1229,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 20
@@ -1250,7 +1250,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1270,7 +1270,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1295,7 +1295,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 20
@@ -1315,7 +1315,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 20
@@ -1336,7 +1336,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1356,7 +1356,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1381,7 +1381,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 16
@@ -1401,7 +1401,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 16
@@ -1422,7 +1422,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1442,7 +1442,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1467,7 +1467,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 28
@@ -1487,7 +1487,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 28
@@ -1508,7 +1508,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1528,7 +1528,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1553,7 +1553,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 24
@@ -1573,7 +1573,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 24
@@ -1594,7 +1594,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1614,7 +1614,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1639,7 +1639,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 32
@@ -1659,7 +1659,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 32
@@ -1680,7 +1680,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1700,7 +1700,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1725,7 +1725,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 28
@@ -1745,7 +1745,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 28
@@ -1766,7 +1766,7 @@
       "Family #1": {
         "Bold": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Bold"
@@ -1786,7 +1786,7 @@
         },
         "Regular": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Arial"
           },
           "fontWeight": {
             "value": "Regular"
@@ -1811,7 +1811,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Heavy"
           },
           "lineHeight": {
             "value": 20
@@ -1831,7 +1831,7 @@
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Book"
           },
           "lineHeight": {
             "value": 20
