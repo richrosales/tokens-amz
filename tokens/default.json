@@ -89,7 +89,7 @@
     "borderWidth": {
       "button": {
         "ghost": {
-          "value": 8,
+          "value": 4,
           "type": "borderWidth"
         }
       }
