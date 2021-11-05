@@ -6,11 +6,11 @@
         "type": "color"
       },
       "header": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       },
       "footer": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       },
       "surface": {
@@ -40,7 +40,7 @@
     },
     "fg": {
       "default": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       },
       "onAccent": {
@@ -77,11 +77,11 @@
       },
       "ghost": {
         "outline": {
-          "value": "#000",
+          "value": "#000000",
           "type": "color"
         },
         "text": {
-          "value": "#000",
+          "value": "#000000",
           "type": "color"
         }
       }
@@ -109,7 +109,7 @@
       }
     },
     "fontFamilies": {
-      "heading": {
+      "display": {
         "value": "Monument Extended",
         "type": "fontFamilies"
       },
@@ -128,20 +128,20 @@
         "type": "fontSizes"
       }
     },
-    "Colossus140": {
-      "Family #1": {
-        "Bold": {
+    "font-display": {
+      "text-9xl": {
+        "weight-700": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Bold"
           },
           "lineHeight": {
             "value": 144
           },
           "fontSize": {
-            "value": 140
+            "value": 128
           },
           "letterSpacing": {
             "value": 0
@@ -150,18 +150,18 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Medium"
           },
           "lineHeight": {
             "value": 144
           },
           "fontSize": {
-            "value": 140
+            "value": 128
           },
           "letterSpacing": {
             "value": 0
@@ -169,21 +169,19 @@
           "paragraphSpacing": {
             "value": 0
           }
-        }
-      },
-      "Family #2": {
-        "Bold": {
+        },
+        "weight-400": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Regular"
           },
           "lineHeight": {
             "value": 144
           },
           "fontSize": {
-            "value": 140
+            "value": 128
           },
           "letterSpacing": {
             "value": 0
@@ -192,18 +190,18 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-300": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Light"
           },
           "lineHeight": {
             "value": 144
           },
           "fontSize": {
-            "value": 140
+            "value": 128
           },
           "letterSpacing": {
             "value": 0
@@ -212,22 +210,266 @@
             "value": 0
           }
         }
-      }
-    },
-    "Uber 112": {
-      "Family #1": {
-        "Bold": {
+      },
+      "text-8xl": {
+        "weight-700": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Bold"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 96
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Medium"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 96
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 96
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 96
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-7xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Bold"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Medium"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-6xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Bold"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Medium"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-5xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Bold"
           },
           "lineHeight": {
             "value": 120
           },
           "fontSize": {
-            "value": 112
+            "value": 48
           },
           "letterSpacing": {
             "value": 0
@@ -236,18 +478,18 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Medium"
           },
           "lineHeight": {
             "value": 120
           },
           "fontSize": {
-            "value": 112
+            "value": 48
           },
           "letterSpacing": {
             "value": 0
@@ -255,21 +497,19 @@
           "paragraphSpacing": {
             "value": 0
           }
-        }
-      },
-      "Family #2": {
-        "Bold": {
+        },
+        "weight-400": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Regular"
           },
           "lineHeight": {
             "value": 120
           },
           "fontSize": {
-            "value": 112
+            "value": 48
           },
           "letterSpacing": {
             "value": 0
@@ -278,233 +518,17 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-300": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Light"
           },
           "lineHeight": {
             "value": 120
           },
           "fontSize": {
-            "value": 112
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Hero 80": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 96
-          },
-          "fontSize": {
-            "value": 80
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 96
-          },
-          "fontSize": {
-            "value": 80
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 96
-          },
-          "fontSize": {
-            "value": 80
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 96
-          },
-          "fontSize": {
-            "value": 80
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Display 64": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 80
-          },
-          "fontSize": {
-            "value": 64
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 80
-          },
-          "fontSize": {
-            "value": 64
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 80
-          },
-          "fontSize": {
-            "value": 64
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 80
-          },
-          "fontSize": {
-            "value": 64
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Headline 48": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 60
-          },
-          "fontSize": {
-            "value": 48
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 60
-          },
-          "fontSize": {
             "value": 48
           },
           "letterSpacing": {
@@ -515,404 +539,180 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 60
-          },
-          "fontSize": {
-            "value": 48
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 60
-          },
-          "fontSize": {
-            "value": 48
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Headline 37": {
-      "Family #1": {
-        "Bold": {
+      "text-4xl": {
+        "weight-700": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Bold"
           },
           "lineHeight": {
-            "value": 52
+            "value": 120
           },
           "fontSize": {
-            "value": 37
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 52
-          },
-          "fontSize": {
-            "value": 37
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 52
-          },
-          "fontSize": {
-            "value": 37
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 52
-          },
-          "fontSize": {
-            "value": 37
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Headline 31": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 48
-          },
-          "fontSize": {
-            "value": 31
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 48
-          },
-          "fontSize": {
-            "value": 31
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 48
-          },
-          "fontSize": {
-            "value": 31
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 48
-          },
-          "fontSize": {
-            "value": 31
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Headline 26": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 40
-          },
-          "fontSize": {
-            "value": 26
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 40
-          },
-          "fontSize": {
-            "value": 26
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 40
-          },
-          "fontSize": {
-            "value": 26
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 40
-          },
-          "fontSize": {
-            "value": 26
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Headline 21": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Lead 24": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
             "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Medium"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-3xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Bold"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Medium"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-2xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Bold"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 24
@@ -924,15 +724,55 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Medium"
           },
           "lineHeight": {
-            "value": 36
+            "value": 120
+          },
+          "fontSize": {
+            "value": 24
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 24
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 24
@@ -945,19 +785,19 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
+      "text-xl": {
+        "weight-700": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Bold"
           },
           "lineHeight": {
-            "value": 36
+            "value": 120
           },
           "fontSize": {
-            "value": 24
+            "value": 20
           },
           "letterSpacing": {
             "value": 0
@@ -966,18 +806,58 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Medium"
           },
           "lineHeight": {
-            "value": 36
+            "value": 120
           },
           "fontSize": {
-            "value": 24
+            "value": 20
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 20
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 20
           },
           "letterSpacing": {
             "value": 0
@@ -986,19 +866,17 @@
             "value": 0
           }
         }
-      }
-    },
-    "Body 18": {
-      "Family #1": {
-        "Bold": {
+      },
+      "text-lg": {
+        "weight-700": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Bold"
           },
           "lineHeight": {
-            "value": 32
+            "value": 120
           },
           "fontSize": {
             "value": 18
@@ -1010,15 +888,55 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Medium"
           },
           "lineHeight": {
-            "value": 32
+            "value": 120
+          },
+          "fontSize": {
+            "value": 18
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 18
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 18
@@ -1031,60 +949,16 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 18
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 18
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Small 16": {
-      "Family #1": {
-        "Bold": {
+      "text-base": {
+        "weight-500-underline": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Medium"
           },
           "lineHeight": {
-            "value": 28
+            "value": 120
           },
           "fontSize": {
             "value": 16
@@ -1096,15 +970,115 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-400-underline": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Regular"
           },
           "lineHeight": {
-            "value": 28
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "font-semibold-line-through": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-700": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Bold"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Medium"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 16
@@ -1117,60 +1091,16 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 28
-          },
-          "fontSize": {
-            "value": 16
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 28
-          },
-          "fontSize": {
-            "value": 16
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Caption 14": {
-      "Family #1": {
-        "Bold": {
+      "text-sm": {
+        "weight-700": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Bold"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
           },
           "fontSize": {
             "value": 14
@@ -1182,15 +1112,55 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Medium"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
+          },
+          "fontSize": {
+            "value": 14
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Regular"
+          },
+          "lineHeight": {
+            "value": 96
+          },
+          "fontSize": {
+            "value": 14
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 14
@@ -1203,60 +1173,16 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 20
-          },
-          "fontSize": {
-            "value": 14
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 20
-          },
-          "fontSize": {
-            "value": 14
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "XSmall 12": {
-      "Family #1": {
-        "Bold": {
+      "text-xs": {
+        "weight-700": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Bold"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
           },
           "fontSize": {
             "value": 12
@@ -1268,37 +1194,15 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Medium"
           },
           "lineHeight": {
-            "value": 20
-          },
-          "fontSize": {
-            "value": 12
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 20
+            "value": 120
           },
           "fontSize": {
             "value": 12
@@ -1310,15 +1214,35 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-400": {
           "fontFamily": {
-            "value": "Avenir"
+            "value": "Monument Extended"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Regular"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Monument Extended"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 12
@@ -1332,20 +1256,20 @@
         }
       }
     },
-    "Tiny 10": {
-      "Family #1": {
-        "Bold": {
+    "font-body": {
+      "text-9xl": {
+        "weight-700": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Heavy"
           },
           "lineHeight": {
-            "value": 16
+            "value": 144
           },
           "fontSize": {
-            "value": 10
+            "value": 128
           },
           "letterSpacing": {
             "value": 0
@@ -1354,18 +1278,58 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Roman"
           },
           "lineHeight": {
-            "value": 16
+            "value": 144
           },
           "fontSize": {
-            "value": 10
+            "value": 128
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 128
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 128
           },
           "letterSpacing": {
             "value": 0
@@ -1375,19 +1339,19 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
+      "text-8xl": {
+        "weight-700": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Heavy"
           },
           "lineHeight": {
-            "value": 16
+            "value": 144
           },
           "fontSize": {
-            "value": 10
+            "value": 96
           },
           "letterSpacing": {
             "value": 0
@@ -1396,18 +1360,58 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Roman"
           },
           "lineHeight": {
-            "value": 16
+            "value": 144
           },
           "fontSize": {
-            "value": 10
+            "value": 96
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 96
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 96
           },
           "letterSpacing": {
             "value": 0
@@ -1416,19 +1420,591 @@
             "value": 0
           }
         }
-      }
-    },
-    "Input 18": {
-      "Family #1": {
-        "Bold": {
+      },
+      "text-7xl": {
+        "weight-700": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingBold"
+            "value": "Heavy"
           },
           "lineHeight": {
-            "value": 28
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 72
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-6xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 144
+          },
+          "fontSize": {
+            "value": 60
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-5xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 48
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 48
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 48
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 48
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-4xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 36
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-3xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 30
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-2xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 24
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 24
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 24
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 24
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-xl": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 20
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 20
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 20
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 20
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        }
+      },
+      "text-lg": {
+        "weight-700": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Heavy"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 18
@@ -1440,15 +2016,55 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Roman"
           },
           "lineHeight": {
-            "value": 28
+            "value": 120
+          },
+          "fontSize": {
+            "value": 18
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 18
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 18
@@ -1461,60 +2077,16 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
+      "text-base": {
+        "weight-500-underline": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Roman"
           },
           "lineHeight": {
-            "value": 28
-          },
-          "fontSize": {
-            "value": 18
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 28
-          },
-          "fontSize": {
-            "value": 18
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Input 16": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 24
+            "value": 120
           },
           "fontSize": {
             "value": 16
@@ -1526,37 +2098,15 @@
             "value": 0
           }
         },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 24
-          },
-          "fontSize": {
-            "value": 16
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
+        "weight-400-underline": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Book"
           },
           "lineHeight": {
-            "value": 24
+            "value": 120
           },
           "fontSize": {
             "value": 16
@@ -1568,125 +2118,15 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-300-line-through": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Light"
           },
           "lineHeight": {
-            "value": 24
-          },
-          "fontSize": {
-            "value": 16
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Button 21": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingRegular"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      },
-      "Family #2": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyBold"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 32
-          },
-          "fontSize": {
-            "value": 21
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Button 16": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 28
+            "value": 120
           },
           "fontSize": {
             "value": 16
@@ -1698,15 +2138,75 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-700": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Heavy"
           },
           "lineHeight": {
-            "value": 28
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-500": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Roman"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 16
@@ -1719,60 +2219,16 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
+      "text-sm": {
+        "weight-700": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Heavy"
           },
           "lineHeight": {
-            "value": 28
-          },
-          "fontSize": {
-            "value": 16
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        },
-        "Regular": {
-          "fontFamily": {
-            "value": "Avenir"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
-          },
-          "lineHeight": {
-            "value": 28
-          },
-          "fontSize": {
-            "value": 16
-          },
-          "letterSpacing": {
-            "value": 0
-          },
-          "paragraphSpacing": {
-            "value": 0
-          }
-        }
-      }
-    },
-    "Button 14": {
-      "Family #1": {
-        "Bold": {
-          "fontFamily": {
-            "value": "Monument Extended"
-          },
-          "fontWeight": {
-            "value": "$fontWeights.headingBold"
-          },
-          "lineHeight": {
-            "value": 20
+            "value": 120
           },
           "fontSize": {
             "value": 14
@@ -1784,15 +2240,55 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
-            "value": "Monument Extended"
+            "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.headingRegular"
+            "value": "Roman"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
+          },
+          "fontSize": {
+            "value": 14
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 96
+          },
+          "fontSize": {
+            "value": 14
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
           },
           "fontSize": {
             "value": 14
@@ -1805,19 +2301,19 @@
           }
         }
       },
-      "Family #2": {
-        "Bold": {
+      "text-xs": {
+        "weight-700": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyBold"
+            "value": "Heavy"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
           },
           "fontSize": {
-            "value": 14
+            "value": 12
           },
           "letterSpacing": {
             "value": 0
@@ -1826,18 +2322,58 @@
             "value": 0
           }
         },
-        "Regular": {
+        "weight-500": {
           "fontFamily": {
             "value": "Avenir"
           },
           "fontWeight": {
-            "value": "$fontWeights.bodyRegular"
+            "value": "Roman"
           },
           "lineHeight": {
-            "value": 20
+            "value": 120
           },
           "fontSize": {
-            "value": 14
+            "value": 12
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-400": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Book"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "letterSpacing": {
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "value": 0
+          }
+        },
+        "weight-300": {
+          "fontFamily": {
+            "value": "Avenir"
+          },
+          "fontWeight": {
+            "value": "Light"
+          },
+          "lineHeight": {
+            "value": 120
+          },
+          "fontSize": {
+            "value": 12
           },
           "letterSpacing": {
             "value": 0
