@@ -26,7 +26,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "#eaea3d",
+        "value": "#adb4bc",
         "type": "color"
       },
       "subtle": {
@@ -36,6 +36,10 @@
       "muted": {
         "value": "#cfd3d8",
         "type": "color"
+      },
+      "promo": {
+        "value": "#f00",
+        "type": "color"
       }
     },
     "fg": {
@@ -43,7 +47,11 @@
         "value": "#000000",
         "type": "color"
       },
-      "onAccent": {
+      "onPrimary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "onSecondary": {
         "value": "#ffffff",
         "type": "color"
       },
@@ -65,6 +73,14 @@
       },
       "link": {
         "value": "#0d6346",
+        "type": "color"
+      },
+      "promo": {
+        "value": "#f00",
+        "type": "color"
+      },
+      "onPromo": {
+        "value": "#ffffff",
         "type": "color"
       }
     },
