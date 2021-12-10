@@ -38,7 +38,11 @@
         "type": "color"
       },
       "promo": {
-        "value": "#f00",
+        "value": "#d72027",
+        "type": "color"
+      },
+      "lime": {
+        "value": "#dde352",
         "type": "color"
       }
     },
@@ -76,11 +80,15 @@
         "type": "color"
       },
       "promo": {
-        "value": "#f00",
+        "value": "#d72027",
         "type": "color"
       },
       "onPromo": {
         "value": "#ffffff",
+        "type": "color"
+      },
+      "lime": {
+        "value": "#dde352",
         "type": "color"
       }
     },
