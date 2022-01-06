@@ -25,9 +25,9 @@
   --theme-button-ghost-outline: #000000;
   --theme-button-ghost-text: #000000;
   --theme-border-width-button-ghost: 4;
-  --theme-border-radius-button: 0;
-  --theme-border-radius-card: 0;
-  --theme-border-radius-input: 0;
+  --theme-border-radius-button: 4;
+  --theme-border-radius-card: 4;
+  --theme-border-radius-input: 4;
   --theme-font-families-display: Monument Extended;
   --theme-font-families-body: Avenir;
   --theme-font-families-nav: Avenir;
